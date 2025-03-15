@@ -3,4 +3,4 @@ cd (change directory) file (e.g my-sql)
 create file(e.g :giithub.txt)
 git add file name 
 git commit -m "file nam eand the changs"
-git push 
+git push oigin main
