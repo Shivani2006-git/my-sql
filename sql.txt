@@ -1,0 +1,10 @@
+sudo mysql -u root
+enter pass word
+create database NAME;
+show database;
+use DATABASE NAME;
+create table TABLE NAME(no int,name varchar(20),age int,department varchar(20),mark int,city 
+varchar(20));
+show tables;
+decribe TABLE NAME;
+insert into FILE NAME(no,name,age,department,mark,city)values(1,'sara',34,'cs',90,'chennai');
