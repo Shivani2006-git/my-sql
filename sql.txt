@@ -8,3 +8,4 @@ varchar(20));
 show tables;
 decribe TABLE NAME;
 insert into FILE NAME(no,name,age,department,mark,city)values(1,'sara',34,'cs',90,'chennai');
+select * from FILE NAME;
