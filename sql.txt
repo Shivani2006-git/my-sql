@@ -1,3 +1,16 @@
+apt-get install mysql-server
+systemctl start mysql
+systemctl enable mysql
+systemctl restar mysql
+systemctl status mysql
+mysql_secure_installation
+yes
+password
+yes
+yes
+yes
+yes
+all done!!!
 sudo mysql -u root
 enter pass word
 create database NAME;
