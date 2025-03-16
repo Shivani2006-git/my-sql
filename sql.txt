@@ -20,18 +20,18 @@ create table TABLE NAME(no int,name varchar(20),age int,department varchar(20),m
 varchar(20));
 show tables;
 decribe TABLE NAME;
-insert into FILE NAME(no,name,age,department,mark,city)values(1,'sara',34,'cs',90,'chennai');
-select * from FILE NAME;
-insert into FILE NAME values(1,'shivi',18,'cs',98,'jkm'),(2,'sara',34,'cse',99,'chennai');
-update FILE NAME set department = 'biology' where department = 'cs';
-update FILE NAME set age=age+1;
-update FILE NAME set mark = 100 where no = 2;
-delete from FILE NAME where no =8;
+insert into TABLE NAME(no,name,age,department,mark,city)values(1,'sara',34,'cs',90,'chennai');
+select * from TABLE NAME;
+insert into TABLE NAME values(1,'shivi',18,'cs',98,'jkm'),(2,'sara',34,'cse',99,'chennai');
+update TABLE NAME set department = 'biology' where department = 'cs';
+update TABLE NAME set age=age+1;
+update TABLE NAME set mark = 100 where no = 2;
+delete from TABLE NAME where no =8;
                 or
-delete from FILE NAME where mark=100;
-select no,name,mark from FILE NAME;
-select * from FILE NAME where city='chennai';
-select distinct city from FILE NAME;
-select * from FILE NAME department='biology';
-select no,name from FILE NAME where department='it';
+delete from TABLE NAME where mark=100;
+select no,name,mark from TABLE NAME;
+select * from TABLE NAME where city='chennai';
+select distinct city from TABLE NAME;
+select * from TABLE NAME department='biology';
+select no,name from TABLE NAME where department='it';
 
