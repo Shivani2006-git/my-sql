@@ -34,4 +34,6 @@ select * from TABLE NAME where city='chennai';
 select distinct city from TABLE NAME;
 select * from TABLE NAME department='biology';
 select no,name from TABLE NAME where department='it';
+select TABLE NAME.name,TABLE NAME.roll from TABLE NAME inner join TABLE NAME on TABLE NAME.no=NAME NAME.roll;
+
 
