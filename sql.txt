@@ -43,3 +43,13 @@ select avg(TABLE NAME) as TABLE TITLE from TABLE NAME;
 select min(COLOUM NAME) as min from TABLE NAME;
 select max(COLOUM NAME) as max from TABLE NAME;
 select min(COLOUM NAME) as min,max(COLOUM NAME) as max from TABLE NAME;
+select COLOUM NAME,COLOUM NAME from TABLE NAME order by COLOUM NAME desc;
+select COLOUM NAME,COLOUM NAME from TABLE NAME order by COLOUM NAME asc;
+eg
+select count(no),department from studentdetails group by department;
+select * from employee where department='it'order by salary desc;
+select count(*),department from employee group by department;
+select avg(salary),department from employee group by department order by department asc;
+select avg(salary),department from employee group by department order by avg(salary) desc limit 1;
+
+
